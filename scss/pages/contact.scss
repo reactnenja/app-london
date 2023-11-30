@@ -1,0 +1,29 @@
+.navbar {
+  height: 100px;
+  .offcanvas {
+    .offcanvas-body {
+      .nav-link {
+        color: white;
+        text-transform: capitalize;
+        font-weight: 500;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .btn-nav {
+        padding: 10px 40px;
+      }
+    }
+  }
+}
+
+.main {
+  margin-top: 90px;
+  height: 4900px;
+  @media (max-width: 576px) {
+  }
+  @media (max-width: 768px) {
+  }
+  @media (max-width: 992px) {
+  }
+}
