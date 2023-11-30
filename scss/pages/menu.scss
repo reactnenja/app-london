@@ -1,0 +1,21 @@
+.menu-header {
+  height: 100px;
+  .bread {
+    margin-top: 350px;
+  }
+  .navbar {
+    height: 100px;
+    .offcanvas {
+      .nav-link {
+        text-transform: capitalize;
+        color: white;
+      }
+      .btn-nav {
+        padding: 10px 40px;
+      }
+    }
+  }
+}
+.menu-main {
+  height: 2500px;
+}
