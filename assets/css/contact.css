@@ -17,3 +17,45 @@
   margin-top: 90px;
   height: 4900px;
 }
+.main .d-flex {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 22px 10px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+@media (max-width: 992px) {
+  .main .d-flex {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .main .d-flex {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .main .d-flex {
+    width: 465px;
+  }
+}
+.main .d-flex picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(36, 36, 36, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .d-flex .right-menu h4 {
+  margin: 0px !important;
+}

@@ -26,4 +26,37 @@
   }
   @media (max-width: 992px) {
   }
+  .d-flex {
+    max-width: 420px;
+    width: 100%;
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 568px) {
+      width: 465px;
+    }
+    border-radius: 15px;
+    padding: 22px 10px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    gap: 20px;
+
+    picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: rgba(36, 36, 36, 0.05);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .right-menu {
+      h4 {
+        margin: 0px !important;
+      }
+    }
+  }
 }
