@@ -18,3 +18,18 @@
 .menu-main {
   height: 2500px;
 }
+@media (max-width: 576px) {
+  .menu-main {
+    height: 5900px;
+  }
+}
+@media (max-width: 768px) {
+  .menu-main {
+    height: 5900px;
+  }
+}
+@media (max-width: 992px) {
+  .menu-main {
+    height: 5900px;
+  }
+}

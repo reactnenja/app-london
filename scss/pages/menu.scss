@@ -18,4 +18,13 @@
 }
 .menu-main {
   height: 2500px;
+  @media (max-width: 576px) {
+    height: 5900px;
+  }
+  @media (max-width: 768px) {
+    height: 5900px;
+  }
+  @media (max-width: 992px) {
+    height: 5900px;
+  }
 }
